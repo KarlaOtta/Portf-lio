@@ -1,0 +1,83 @@
+/* From Uiverse.io by waleedlh10 */ 
+.card {
+    width: 200px;
+    background: rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -2px #bebebe;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+  }
+  
+  .img {
+    width: 100%;
+    height: 7em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(#7980c5, #9198e5);
+    display: flex;
+    align-items: top;
+    justify-content: right;
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+  
+  .text {
+    padding: 7px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+  }
+  
+  .text .h3 {
+    font-family: system-ui;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  
+  .text .p {
+    font-family: system-ui;
+    color: #999999;
+    font-size: 13px;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .icon-box {
+    margin: 10px;
+    padding: 12px;
+    background-color: #22017e;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .icon-box .span {
+    font-family: system-ui;
+    font-size: small;
+    font-weight: 500;
+    color: #fff;
+  }
+
+
+#cardsprimarios{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#cardssecundarios{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+ 
